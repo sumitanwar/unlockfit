@@ -1,0 +1,92 @@
+.main_container {
+  background-color: black;
+  height: 665px;
+  color: white;
+  padding-top: 50px;
+}
+.form_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+.input {
+  width: 60%;
+  height: 30px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+label {
+  font-size: 20px;
+}
+label:hover,
+#lb:hover,
+#kg:hover {
+  cursor: pointer;
+}
+#lb,
+#kg {
+  width: 20px;
+  height: 20px;
+  margin: 0px 20px;
+}
+#lb {
+  margin-left: 5px;
+}
+#kg {
+  margin-left: 5px;
+}
+.cal_btn {
+  margin-top: 10px;
+  width: 150px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+.cal_btn:hover {
+  cursor: pointer;
+  background-color: rgb(193, 190, 190);
+}
+.Result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.table {
+  border: 2px solid white;
+  border-collapse: collapse;
+  background-color: rgb(127, 133, 255);
+}
+.table thead tr th {
+  border: 2px solid white;
+  width: 150px;
+  height: 30px;
+  font-size: 22px;
+}
+.table tbody tr td {
+  border: 2px solid white;
+}
+.idealWt {
+  color: gray;
+}
+.advise {
+  font-size: 20px;
+  padding: 0px;
+}
+.advise:hover {
+  cursor: pointer;
+  text-decoration: underline blue;
+  color: blue;
+}

@@ -1,0 +1,26 @@
+.header_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: black;
+  color: aliceblue;
+  height: 80px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(84, 80, 80);
+}
+.logoimg {
+  width: 60px;
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.header {
+  color: rgb(255, 170, 0);
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 50px;
+}
+.header:hover {
+  cursor: pointer;
+}
